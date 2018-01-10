@@ -1,1 +1,21 @@
-<html><head></head><body><marquee><h1>I joined Cloudflare on Dec 11, 2017 and there were 119 data centers</h1></marquee></body>
+<html>
+<head>
+<script type="text/javascript">
+          function sum()
+          {
+             var num1 = document.myform.number1.value;
+             var num2 = document.myform.number2.value;
+             var sum = parseInt(num1) + parseInt(num2);
+             document.getElementById('add').innerHTML = sum;
+          }
+        </script>  
+</head>
+<body>
+ <marquee><h1>I joined Cloudflare on Dec 11, 2017 and there were 119 data centers</h1></marquee>
+          <FORM NAME="myform">
+          <INPUT TYPE="text" NAME="number1" VALUE=""> + 
+          <INPUT TYPE="text" NAME="number2" VALUE="">
+          <INPUT TYPE="button" NAME="button" Value="=" onClick="sum()">
+          <INPUT TYPE="text" ID="add" NAME="result" VALUE="">
+        </FORM>
+</body>
